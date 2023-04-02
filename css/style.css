@@ -1,0 +1,81 @@
+:root{
+    --claro: #F5EEF8;
+    --oscuro: #C39BD3;
+}
+
+img.card-img-top {
+    object-fit: cover;
+    cursor: pointer;
+    max-height: 150px !important;
+    max-width: 150px !important;
+}
+
+img.card-img-top.girar {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* .alinear{
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10rem auto 5rem 5rem;
+    column-gap: 5px;
+    
+}*/ 
+.margen{
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+}
+.margen2{
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+body{
+    background-image: linear-gradient(to top, var(--oscuro) 0%, var(--claro) );
+}
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+.boton3{        
+    text-decoration: none;
+    display:inline-block;
+    width:60%;
+    padding:20px;
+    background: rgb(95, 12, 143);
+    width:40%;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px 5px rgb(219, 0, 248);
+    border-radius: .5px;
+    
+
+   }
+   .centrar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem ;
+    margin-bottom: 10rem;
+   
+   }
+
+  .boton3:hover{
+
+    box-shadow: 0px 0px 20px 5px rgb(255, 28, 198);
+    
+  }
+
